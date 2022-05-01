@@ -1,0 +1,18 @@
+# Namespaced project name that the target belongs to
+project: stable-swap
+
+# Target name (should be unique within the project)
+target: swaps_only_test
+
+# Base image to run the binary in.
+# image: ghcr.io/prateekvishnu/stable-swap:latest
+
+# List of commands used to test the target
+cmds:
+
+    # Command used to start the target, "@@" is the input file
+    # (when "@@" is omitted Mayhem defaults to stdin inputs)
+    - cmd: /swaps_only_test
+
+ 
+

@@ -7,7 +7,7 @@ on:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
-  SWAP_MAYHEMFILE: swap_only_test.mayhemfile
+  SWAP_MAYHEMFILE: swaps_only_test.mayhemfile
   FUZZ_MAYHEMFILE: fuzz_test.mayhemfile
 
 
